@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+				   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+				   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				   xsi:schemaLocation="
+				   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+				   http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+	<preConditions>
+        <dbms type="oracle" />
+    </preConditions>
+
+    <!-- WARNING: Please use the following format for files -->
+    <!-- database_product_dateTimestamp(ddMMyyyy)-->
+    <!--<include file="db/changelogs/database/base/base_owner_18032016.sql"/>-->
+    <!--<include file="db/changelogs/database/base/base_owner_plsql_18032016.sql"/>-->
+    <!--<include file="db/changelogs/database/delta/delta_grant_execute_to_egateway_user_27052016.sql"/>-->
+
+</databaseChangeLog>
