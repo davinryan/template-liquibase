@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>template-liquibase</artifactId>
-    <groupId>com.davinvicky.database</groupId>
+    <groupId>com.davinryan.database</groupId>
     <version>0.0.14-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -93,7 +93,7 @@
                             <url>${LBurl}</url>
                             <username>${LBowner.username}</username>
                             <password>${LBowner.password}</password>
-                            <changeLogFile>db/changelogs/egateway_owner/master.xml</changeLogFile>
+                            <changeLogFile>db/changelogs/database/master.xml</changeLogFile>
                             <contexts>${LBcontext}</contexts>
                             <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
                         </configuration>
